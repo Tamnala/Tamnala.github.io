@@ -1,0 +1,12 @@
+---
+title: "Tamnala Briggs-Megafu"
+---
+
+This is Tamnala Briggs-Megafu's website. Data projects are hosted here.
+
+```{r}
+par (family="sans")
+plot(iris, pch=20, cex=.75, col="steelblue")
+```
+
+par(family="Arial")
