@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tamnala Briggs-Megafu",
+    "section": "",
+    "text": "par (family=\"sans\")\nplot(iris, pch=20, cex=.75, col=\"steelblue\")\n\n\n\n\npar(family=“Arial”)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  }
+]
