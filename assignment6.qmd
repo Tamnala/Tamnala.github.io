@@ -1,0 +1,6 @@
+---
+title: "assignment6"
+editor: visual
+---
+
+[My Shiny App](http://nsb8q6-tamnala0briggs0megafu.shinyapps.io/Shinyapptrial?_ga=2.197479471.1882093857.1668795043-1559775249.1667932622)

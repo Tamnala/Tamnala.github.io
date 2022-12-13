@@ -1,0 +1,95 @@
+---
+title: "assignment4"
+editor: visual
+---
+
+Data Visualization Hackathon
+
+```{r}
+# Assignment 4 Data Vis Hackathon 
+
+# Tamnala - Dohyo Group 
+# Sept 27, 2022
+
+rm(list=ls())
+
+library(readr)
+N<- read_csv("Sampling Example.csv") 
+Voting <- N$`Likeliness you will vote`
+Genre <- N$`Music Taste`
+Age <- N$Age
+Party <- N$`Political Party - Liberal (0)/Conservative (1)`
+
+library(ggplot2)
+library(tidyverse)
+library(viridis)
+library(gridExtra)
+library(cowplot)
+
+p1<- ggplot(N,
+            aes(x=`Voting`,
+            ))+
+  geom_bar(position='dodge') +
+  scale_colour_brewer(palette = "Set1") +
+  theme_bw() +
+  labs(x = "On a Scale of 1-to-5 How Likely Are You to Vote?",
+       y = "count",
+       title = "Likeliness of Voting",
+       caption = Sys.Date())
+p1
+```
+
+Graph A
+
+On a scale of 1 to 5 where 1 indicates a strong disagreement to voting and 5 indicates a strong preference for voting, most respondents indicate their preference of being undecided to being not likely to vote, while those that indicate stronger preferences towards voting are fewer within the distribution.
+
+```{r}
+#2
+
+p2<- ggplot(N,
+            aes(x=`Genre`,
+            ))+
+  geom_bar(position='dodge') +
+  scale_colour_brewer(palette = "Set1") +
+  theme_bw() +
+  labs(x = "Preferred Genre?",
+       y = "count",
+       title = "Genre",
+       caption = Sys.Date())
+p2
+```
+
+Graph B
+
+In terms of music genre, Latin and Pop music are the most preferred, followed closely by R & B, and Classical, while Country and Other genres have low preferences.
+
+```{r}
+p3<- ggplot(N,
+            aes(x=`Age`,
+            ))+
+  geom_bar(position='dodge') +
+  scale_colour_brewer(palette = "Set1") +
+  theme_bw() +
+  labs(x = "How old are you?",
+       y = "count",
+       title = "Age",
+       caption = Sys.Date())
+p3
+
+
+
+```
+
+Graph C
+
+The age distribution indicates that most individuals are 55 years old, followed closely by individuals aged 31 years, 28 years, and 22 years respectively. The fewest individuals are aged 58 years, 26 years, and 24 years respectively. While other age groups are fairly distributed
+
+```{r}
+ggdraw() +
+  draw_plot(p2, x = 0, y = .5, width = .5, height = .5) +
+  draw_plot(p3, x = .5, y = .5, width = .5, height = .5) +
+  draw_plot(p1, x = 0, y = 0, width = 1, height = 0.5) +
+  draw_plot_label(label = c("A", "B", "C"), size = 8,
+                  x = c(0, 0.5, 0), y = c(1, 1, 0.5))
+
+```
