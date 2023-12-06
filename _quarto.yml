@@ -16,7 +16,22 @@ website:
         text: CV
       - href: Tamnalablog.github.io
         text: Blog
-      - text: Assignment
+      - text: EPPS 6356
+        menu:
+          - href: assignment1.qmd
+            text: assignment1
+          - href: assignment2.qmd
+            text: assignment2
+          - href: assignment3.qmd
+            text: assignment3
+          - href: assignment4.qmd
+            text: assignment4
+          - href: assignment5.qmd
+            text: assignment5
+          - href: assignment6.qmd
+            text: assignment6 
+            
+      - text: EPPS 6302
         menu:
           - href: assignment1.qmd
             text: assignment1
