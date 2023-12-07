@@ -11,33 +11,63 @@ plot(iris, pch=20, cex=.75, col="steelblue")
 
 par(family="Arial")
 
-Assignment #1
+**Assignment #1**
 
-ANALYZE SURVEY
+**1). QT Movie rental downloaded, and new project created.**
 
-a-c: The questions on the survey are relatively simple and non complex. Given that they relate to movie rentals they are particular to this topic. They begin with multiple choice/ranking questions and then are set up with multiple choice questions, but for the most part questions that are strictly qualitative.
+<https://utdallas.yul1.qualtrics.com/survey-builder/SV_ewTQQWsSK3XjlMq/edit>
 
-Personally, my only criticism involves design. The questions seem long and from a survey design perspective not intuitive for mobile users.
+**2). Analyze Survey**
 
-d,3-7: The survey is fairly intuitive and does not need editing, it does not deviate much from pre-existing surveys. Adding the UTD logo personalizes it to the university which makes it useful for UTD users.
+a\) **How is the survey structured** -- There is a page break after the first block, and the entire survey is made up of 18 blocks
 
-FURTHER ASSIGNMENT
+b\) **What is the questionnaire composed of** -- The questionnaire is composed of text graphic, multiple choice, and matrix table type questions.
 
-1-4: Inserting this block questions allows for the introduction of multiple questions at a time, assuming these blocks are preexisting they create an easier survey experience.
+c\) **How are the questions ordered** -- The questionnaire starts with a recruitment letter followed by a page break. This is followed by 12 questions about customers\' perceptions about the services received and followed by 4 questions about customers\' demographics.
 
-Assignment #2
+3). **Change the look & feel to include UT Dallas Header -**
+
+4). **Use skip logic in Q4, if answer is NO, skip to the question Q7** \"Do you feel comfortable purchasing software over the internet? [What is the difference between Skip Logic and Display Logic?]{.underline}
+
+[**Skip logic**]{.underline} allows you to send the respondents to a future point in the survey based on how they answer a question while [**Display logic**]{.underline} will display the selected question if certain criteria are met.
+
+5\. **Apply validation to every question - force response**
+
+6**. Insert page break to save respondents from scrolling down the screen**
+
+7\) **Reorganize the survey by blocks** -- moved Q6 to be just after Q4
+
+ii\) **Apply display logic to one of the questions** -- Display logic applied to Q11 to reflect if customer selected ***already own a DVD player***from Q3
+
+iii\) **Try out the Carry Forward features**
+
+iv\) **How to make the survey mobile friendly?**
+
+1)     Add page breaks to every question -- page break added to every question to make the survey mobile friendly
+
+2)     Apply validation to every question -- Validation (force response) added to every question.
+
+3)     Reconsider Matrix table?
+
+v\) Add-on challenges
+
+            1) Add default choices
+
+[**Default choices**]{.underline} can be used to feature answer choices within a question when respondents open a survey. This can be used when you want respondents to update previously collected data, such as updating their contact addresses or changes in their names if they get married for example. Also, respondents can use this feature to give suggestions on the survey.
+
+**Assignment #2**
 
 The difference between the two programs comes down to intuition. If the purpose is to visualize data from a non social science research perspective GTrends is much better at doing this. However, if the goal is to both analyze and perform research the gtrends package is much better.
 
 It would be interesting to perform an analysis importing the csv from google versus using the gtrends package.
 
-Assignment #3
+**Assignment #3**
 
 3a.: The Biden-Xi analysis allows for an understanding of what is going on within United States international relations and what revolves around the conversation. Terms like coronavirus and fentanyl stand out, because of the controversy surrounding COVID-19, as well as the flow of fentanyl into the United States that is in part due to the drug coming from the souther border being of Chinese origin. In addition to the aforementioned terms it is important to note the role of human rights and the tension between rising Chinese hegemony and the United States hegemonic position being challenged by it. Since the U.S. represents Western Liberal democratic order it is possible to see how human rights ties into the crises involving both Tibetans and Uyghers in China.
 
 3b.: Looking over time, it is important to note that at least within the plot there is very little change in the use of the term "american" and this is very similar to the the use of the word "people". Across time, these terms do not look like they change across time. There are however a couple of anomalies within the plot - The Trump 2017 speach being one of these instances, where his use of the term "american" is greater than everybody else. An explanation for this may be due to his populist platform that appeases to his voter base. A similar thing is found with people in both Johnson and Nixon regarding people, but a qualitative analysis may be necessary to know why they used these terms to the extent they did. For analyses regarding ideology it would be interesting to do a similar analysis between the term "communist" and "socialist" - I attempted an analysis and was not able to get a plot for it.
 
-Assignment #5
+**Assignment #5**
 
 There were issues in my ability to access this data. However, listed below is what it looked like. As you can tell there is an original ID and secret. Issues regarding third-party apps made it difficult to continue to the data analysis portion of the assignment.
 
@@ -99,7 +129,7 @@ cnn_videos1 = yt_search(term="", type="video", channel_id = "UCeY0bbntWzzVIaj2z3
 
 I can potentially use quanteda, but given the difficulty accessing third party apps it does not seem possible. It would be interesting to see a data scientist analyzing their own child do this.
 
-Assignment #6
+**Assignment #6**
 
 These are the wordclouds from the rscript textmining and the code used
 
@@ -247,7 +277,7 @@ head(title_data, n =20)
 
 The difficulty of this is that I am unsure as to how to make this visual.
 
-Assignment #7
+**Assignment #7**
 
 Code for first part of govdata with output
 
@@ -354,7 +384,7 @@ tic() pdf_texts \<- parLapply(cfa_ch, read_pdf_to_text, mc.cores = num_cores) to
 
 stopCluster(cl)
 
-Assignment #8
+**Assignment #8**
 
 A couple of observations regarding setting up the census data key. First, it is a relative simple process. However, the second, it is much faster if one does not use an .edu email.
 
