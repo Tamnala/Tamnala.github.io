@@ -4,5 +4,15 @@ title: "research"
 
 About this site
 
-```{}
+```         
 ```
+
+\# Final Project
+
+\## Final Paper
+
+\<iframe src="[https://drive.google.com/file/d/11eTnzgdzBV_P6gQjJ6kDUWflnTOMojYX/preview"](https://drive.google.com/file/d/11eTnzgdzBV_P6gQjJ6kDUWflnTOMojYX/preview%22 "https://drive.google.com/file/d/11etnzgdzbv_p6gqjj6kduwflntomojyx/preview%22") width="640" height="480" allow="autoplay"\> \</iframe\>
+
+\## Presentation Slides
+
+\<iframe src="[https://drive.google.com/file/d/11g-pJtcvaH4iLIfHxIjDWv91FCA8hAhI/preview"](https://drive.google.com/file/d/11g-pJtcvaH4iLIfHxIjDWv91FCA8hAhI/preview%22 "https://drive.google.com/file/d/11g-pjtcvah4ilifhxijdwv91fca8hahi/preview%22") width="640" height="480" allow="autoplay"\> \</iframe\>
