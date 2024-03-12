@@ -49,8 +49,8 @@ website:
           
           - text: EPPS 6354
         menu:
-          
-          
+          - href: assignment1.qmd
+            text: assignment1
           
           
           
