@@ -10,8 +10,6 @@ website:
       - href: about.qmd
       - href: research.qmd
         text: research
-      - href: project.qmd
-        text: project
       - href: cv.pdf
         text: CV
       - href: Tamnalablog.github.io
@@ -30,7 +28,6 @@ website:
             text: assignment5
           - href: assignment6.qmd
             text: assignment6 
-            
       - text: EPPS 6302
         menu:
           - href: assignment1.qmd
@@ -45,19 +42,11 @@ website:
             text: assignment5
           - href: assignment6.qmd
             text: assignment6 
-          
-          
-          - text: EPPS 6354
+      - text: EPPS 6354
         menu:
           - href: assignment1.qmd
             text: assignment1
-          
-          
-          
-          
-          
-          
-        
+            
 format:
   html:
     theme: cosmo

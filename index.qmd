@@ -23,11 +23,11 @@ a\) **How is the survey structured** -- There is a page break after the first bl
 
 b\) **What is the questionnaire composed of** -- The questionnaire is composed of text graphic, multiple choice, and matrix table type questions.
 
-c\) **How are the questions ordered** -- The questionnaire starts with a recruitment letter followed by a page break. This is followed by 12 questions about customers\' perceptions about the services received and followed by 4 questions about customers\' demographics.
+c\) **How are the questions ordered** -- The questionnaire starts with a recruitment letter followed by a page break. This is followed by 12 questions about customers' perceptions about the services received and followed by 4 questions about customers' demographics.
 
 3). **Change the look & feel to include UT Dallas Header -**
 
-4). **Use skip logic in Q4, if answer is NO, skip to the question Q7** \"Do you feel comfortable purchasing software over the internet? [What is the difference between Skip Logic and Display Logic?]{.underline}
+4). **Use skip logic in Q4, if answer is NO, skip to the question Q7** "Do you feel comfortable purchasing software over the internet? [What is the difference between Skip Logic and Display Logic?]{.underline}
 
 [**Skip logic**]{.underline} allows you to send the respondents to a future point in the survey based on how they answer a question while [**Display logic**]{.underline} will display the selected question if certain criteria are met.
 

@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "7af6c7df"
+  },
+  "about.qmd": {
+    "about.html": "e20d48ac"
+  },
+  "assignment1.qmd": {
+    "assignment1.html": "3fac75d8"
+  },
+  "assignment2.qmd": {
+    "assignment2.html": "442bccce"
+  },
+  "assignment3.qmd": {
+    "assignment3.html": "d782f24b"
+  },
+  "assignment6.qmd": {
+    "assignment6.html": "fa398faa"
+  },
+  "assignments.qmd": {
+    "assignments.html": "aba28162"
+  },
+  "research.qmd": {
+    "research.html": "647777de"
+  }
+}
