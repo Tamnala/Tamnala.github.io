@@ -46,6 +46,17 @@ website:
           - href: assignment6.qmd
             text: assignment6 
           
+          
+          - text: EPPS 6354
+        menu:
+          
+          
+          
+          
+          
+          
+          
+          
         
 format:
   html:
